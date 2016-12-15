@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAGE2</title>
+<style>
+    table{
+       border-collapse:collapse; 
+        
+    }
+    table,th,td{
+        
+       border:solid 1px #000 ; 
+        
+    }  
+    
+</style>
+  
+</head>
+<body>
+   
+<img src="https://source.unsplash.com/1000x200?natural" alt="">
+<img src="https://source.unsplash.com/1000x200" alt="">
+<img src="https://source.unsplash.com/1000x200?beauty" alt="">
+<img src="https://source.unsplash.com/1000x200?building" alt="">
+
+<!--ol>li*3>{項目 $}-->
+<ol>
+    <li>項目 1</li>
+    <li>項目 2</li>
+    <li>項目 3</li>
+</ol>
+<!---->
+
+<!--table>tr>td*3>{data $}-->
+<table>
+    <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+    </tr>
+</table>
+
+
+可由最裡面的一層開始考慮寫起=>由td
+<!--  td>img[src=ppt.gif]^td>a[href=Lecture$.ppt]{Lecture $}  -->
+td>img[src=ppt.gif]^td>a[href=Lecture$.ppt]{Lecture $}
+
+
+<!--table>tr*3>td>img[src=ppt.gif]^td>a[href=Lecture$.ppt]{Lecture $}--> 
+<table>
+    <tr>
+        <td><img src="ppt.gif" alt=""></td>
+        <td><a href="Lecture1.ppt">Lecture 1</a></td>
+    </tr>
+    <tr>
+        <td><img src="ppt.gif" alt=""></td>
+        <td><a href="Lecture2.ppt">Lecture 2</a></td>
+    </tr>
+    <tr>
+        <td><img src="ppt.gif" alt=""></td>
+        <td><a href="Lecture3.ppt">Lecture 3</a></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+     <td rowspan="2" colspan="2">困犯兩難</td>
+     <td colspan="2">犯人A</td>
+    </tr>
+    <tr>
+       <td>招供</td>
+       <td>否認</td>
+    </tr>
+    <tr>
+       <td rowspan="2">犯人B</td>
+       <td>招供</td>
+       <td>都關30年</td>
+       <td>A無期徒刑,B關5年</td>
+    </tr> 
+    <tr>
+       <td>否認</td>
+       <td>B無期徒刑,A關5年</td>
+       <td>無罪釋放</td>        
+    </tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+#box{ 
+    border: 1px solid #000;
+/*    float: left;*/
+    display:inline-block;
+     height: 50px;
+    
+    box-sizing: border-box;
+    
+
+}
+
+@media screen and (max-width:400px){
+    
+    #box{
+         width:100%;      
+        
+    }
+    
+    
+}
+
+
+
+@media screen and (min-width:400px){
+    
+    #box{
+        width:20%;
+        
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+
+

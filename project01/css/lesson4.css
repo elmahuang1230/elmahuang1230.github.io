@@ -1,0 +1,13 @@
+table{
+    border:1px solid #333;
+    
+}
+
+
+tr:nth-child(2n+1){
+    color: #fff;
+    
+    background:blue;
+    
+    
+}
