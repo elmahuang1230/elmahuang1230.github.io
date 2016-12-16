@@ -1,12 +1,13 @@
 header{
-    background: #000;
+    background: #333;
     
 }
 
 header ul li{
    display: inline-block;
-    padding: 5px 15px;
+    padding: 20px 15px;
 }
+
 header ul li a{
     
     color: #ccc;
@@ -20,46 +21,72 @@ section{
 }
 
 
+[class^="btn-"]{
+    border-radius: 3px;
+    border:1px solid #ccc;
+    padding: 5px;
+    
+    font-size:1rem;
+    
+    margin: 5px;
+    display: inline-block;
+}
 
-[class^="col-"]{
+.color-stress{
+    background-color: #286090;
+    border-color: #204d74;
+    color: #fff;
+}
+
+
+.jumbotron{
+    padding: 50px 20px;
+    border-radius: 5px;
+    background: #eee;
+    
+    min-height: 300px;
     
     
-    height: auto;
-    float: left;
+}
+
+
+.jumbotron h1{
+    font-size: 3rem;
     
-    width: 100%;
+}
+
+.jumbotron p{
     
-    padding:0 15px;
-    
+    margin: 5px 0;
+    font-size: 1.25rem;
     
     
 }
 
 
 .thumbbail{
-    border: 1px solid #000;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
 }
-[class^="col-"] img{ width: 100%;}
 
-
-@media screen and (min-width:768px){
-    
-    
-    
-.col-md-1  {width: calc(100% * 1 / 12);}
-.col-md-2  {width: calc(100% * 2 / 12);}
-.col-md-3  {width: calc(100% * 3 / 12);}
-.col-md-4  {width: calc(100% * 4 / 12);}
-.col-md-5  {width: calc(100% * 5 / 12);}
-.col-md-6  {width: calc(100% * 6 / 12);}
-.col-md-7  {width: calc(100% * 7 / 12);}
-.col-md-8  {width: calc(100% * 8 / 12);}
-.col-md-9  {width: calc(100% * 9 / 12);}
-.col-md-10 {width: calc(100% * 10 / 12);}
-.col-md-11 {width: calc(100% * 11 / 12);}
-.col-md-12 {width: calc(100% * 12 / 12);}
-    
+.thumbbail img{
+    max-height: 500px;    
     
 }
 
-.color_stree{ background:blue; color:#fff;}
+.thumbbail h2{
+    
+    font-size: 2rem;
+}
+
+.thumbbail .caption{
+    margin: 15px;
+    
+    text-align: center;
+    
+}
+
+
+
+
